@@ -40,14 +40,12 @@
 .contenuto-header{
     margin: 0px 10px;
     display: inline-block;
-    
 }
 
 ul li{
     display: inline-block;
     padding: 15px;
     color: #fff;
-    
 }
 
 header{
@@ -76,9 +74,7 @@ h1{
     padding-top: 100px;
 }
 
-.bordo{
-    border: 2px dashed black;
-}
+
 
 .intestazioneprincipale{
     height: 200px;
@@ -87,8 +83,6 @@ h1{
     line-height: 25px;
     color: #fff;
     display: inline-block;
-
-    
 }
 
 .contain{
@@ -97,7 +91,7 @@ h1{
     width: ;
 }
 
-.scarica{
+.scaricabianco{
     background-color: #fff;
     color: black;
     border: 1px solid #fff;
@@ -105,6 +99,14 @@ h1{
     padding: 8px;
 }
 
+.scaricablu{
+    background-color: #7289DA;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 20px 20px; 
+    padding: 10px;
+    display: inline-block;
+}
 .apridiscord{
     background-color: #23272A;
     border: 1px solid black;
@@ -130,8 +132,15 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 500px;
     width: 100%;
+}   
+
+.centrointestazione{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
 }   
 
 .rettangolopiccolo{
@@ -167,16 +176,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 1000px;
     
 }   
 
 .rettangoloenorme{
-    height: 400px;
-    width: 750px;
-    background-color: olive;
-    border: 1px dashed black;
-
+    height: 600px;
+    width: 900px;
 }
 
 .sfondonero{
@@ -222,5 +228,22 @@ h1{
     align-items: center;
     height: 50px;
     width: 750px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+
+.stelle{
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.padding-20{
+    padding: 10px;
+}
+
+.logoita
+    {
+        display: inline-block;
+    }
