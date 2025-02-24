@@ -66,8 +66,8 @@ header{
 h1{
     text-align: center;
     color: #fff;
-    margin-top: 20px;
     margin-bottom: 30px;
+    font-size:xx-large;
 
 }
 .p-top{
@@ -77,7 +77,7 @@ h1{
 
 
 .intestazioneprincipale{
-    height: 200px;
+    height: 500px;
     width: 600px;
     text-align: center;
     line-height: 25px;
@@ -123,7 +123,7 @@ h1{
 }
 
 .fontpiccolo{
-    font-size:small;
+    font-size: 75%;
     margin-top: 15px;
     line-height: 20px;
 }
