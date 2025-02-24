@@ -68,6 +68,7 @@ h1{
     text-align: center;
     color: #fff;
     margin-top: 20px;
+    margin-bottom: 30px;
 
 }
 .p-top{
@@ -78,12 +79,38 @@ h1{
     border: 2px dashed black;
 }
 
-.rettangolorosa{
+.intestazioneprincipale{
     height: 200px;
     width: 600px;
-    background-color: rosybrown;
-    border: 2px dashed black;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    display: inline-block;
+
+    
 }
+
+.contain{
+    display: inline-block;
+    margin: 15px 20px 0 0;
+}
+
+.scarica{
+    background-color: #fff;
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 20px 20px  ;
+    padding: 8px;
+}
+
+.apridiscord{
+    background-color: #23272A;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px 20px;
+}
+
+
 
 .centro{
     display: flex;
