@@ -116,6 +116,10 @@ h1{
     font-size:150%;
 }
 
+.testocentrato{
+    text-align: center;
+}
+
 .fontpiccolo{
     font-size:small;
     margin-top: 15px;
@@ -126,7 +130,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 1000px;
+    width: 100%;
 }   
 
 .rettangolopiccolo{
@@ -157,15 +162,13 @@ h1{
 }
 
 
-.sfondogrigio{
-    background-color: grey;
-}
 
 .centrogrande{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
+    
 }   
 
 .rettangoloenorme{
