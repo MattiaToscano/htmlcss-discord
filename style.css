@@ -62,6 +62,7 @@ header{
 .sfondo{
     background-image:url(./img/jumbo.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -110,25 +111,34 @@ h1{
     border-radius: 20px 20px;
 }
 
+.fontgrande{
+    font-size:150%;
+}
 
+.fontpiccolo{
+    font-size:small;
+    margin-top: 15px;
+    line-height: 15px;
+}
 
 .centro{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 700px;
 }   
 
 .rettangolopiccolo{
         height: 300px;
         width: 300px;
-        background-color: #FFC0CA;
+
 }
 
-.rettangologrande{
+.rettangologrande-primaimmagine{
     height: 300px;
     width: 450px;
-    background-color: #1E8FFF;
+    background-image: url(./img/item1.svg);
+    background-size: contain;
 }
 
 .sfondogrigio{
